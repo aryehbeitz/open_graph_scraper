@@ -18,7 +18,7 @@
 - Request web site
 
 ```
-curl -X POST http://localhost:3000/stories/\?url\=https://il.funzing.com
+curl -X POST https://aryeh.beitz.hiring.keywee.io/stories/\?url\=https://il.funzing.com
 ```
 
 Response:
@@ -31,7 +31,7 @@ Response:
 Now use the token:
 
 ```
-curl http://localhost:3000/stories/23c188f3160b02b0ad7c348480ceb314
+curl http://aryeh.beitz.hiring.keywee.io/stories/23c188f3160b02b0ad7c348480ceb314
 ```
 
 Response:
@@ -43,7 +43,7 @@ Response:
 Run again:
 
 ```
-curl http://localhost:3000/stories/23c188f3160b02b0ad7c348480ceb314
+curl http://aryeh.beitz.hiring.keywee.io/stories/23c188f3160b02b0ad7c348480ceb314
 ```
 
 Now we have the data:
