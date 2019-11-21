@@ -6,6 +6,10 @@
 - Database: sqlite
 
 ### Set Up
+- `rvm install 3.6.3`
+- `bundle`
+- `rake db:create`
+- `rake db:migrate`
 - `rails s -p 3004`
 - `rake jobs:work`
 
