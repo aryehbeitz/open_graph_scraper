@@ -3,6 +3,7 @@ class CreateCanonicalTokens < ActiveRecord::Migration[6.0]
     create_table :canonical_tokens do |t|
       t.string :token, null: false, index: { unique: true }
       t.string :canonical_url
+      t.integer :status
 
       t.timestamps
     end

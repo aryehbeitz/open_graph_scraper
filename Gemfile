@@ -42,3 +42,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'metainspector'
 gem 'annotate'
+gem 'delayed_job_active_record'

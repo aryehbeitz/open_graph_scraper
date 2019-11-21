@@ -5,6 +5,7 @@
 #  id            :integer          not null, primary key
 #  token         :string           not null
 #  canonical_url :string
+#  status        :integer
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
 #
