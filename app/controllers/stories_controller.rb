@@ -42,7 +42,7 @@ class StoriesController < ApplicationController
       return
     end
 
-    LoadMetadataJob.perform_now(canonical_token.token)
+    LoadMetadataJob.perform_later(canonical_token.token)
 
     render json: {
       id: canonical_token.id,

@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-  resources :stories, only: [:index, :show]
+  resources :stories, only: [:show] do
+    collection do
+      post :index
+    end
+  end
 end
